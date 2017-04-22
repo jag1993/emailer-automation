@@ -1,5 +1,5 @@
-const nodemailer = require('nodemailer');
-
+const nodemailer = require('nodemailer'); 
+const inquirer
 //Username and Password for email that will be sent out to people who have information
 let transporter = nodemailer.createTransport({
     service: 'gmail',
