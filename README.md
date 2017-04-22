@@ -7,5 +7,5 @@
 4. enjoy email
 
 >PS, you have to input your own values in the mail list code because I'm lazy and will abstract this soon. </br>
->I would probably use process.argv and an NPM package like inquirer so any user can log in and their own mailing lists </br>
+>I would probably use process.argv and an NPM package like inquirer so any user can log in and add their own mailing lists </br>
 > Enjoy :)
