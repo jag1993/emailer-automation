@@ -12,10 +12,12 @@ let transporter = nodemailer.createTransport({
 //Email List with contact details
 let mailList = {
 	first: {email:'jag040393@gmail.com',
-         	name: 'Jose Garcia' 
+         	name: 'Jose Garcia',
+            venue: 'Home'
 		   },
 	second: {email:'joseabgweb@gmail.com',
-			 name: 'Purple Joe'
+			 name: 'Purple Joe',
+             venue: 'Office'
 			}
 }
 
@@ -27,7 +29,7 @@ Object.keys(mailList).map((keyOfMailList)=>{
     	from: '"Jose Garcia" <jg93439343@gmail.com>', 
     	to: mailList[keyOfMailList].email, 
     	subject: `Hello ${mailList[keyOfMailList].name}`, 
-    	text: `Hello ${mailList[keyOfMailList].name} please give me the information I need`, 
+    	text: `Hello ${mailList[keyOfMailList].name} please give me the information I need in ${mailList[keyOfMailList].venue}`, 
 	};
 
 
